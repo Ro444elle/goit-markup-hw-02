@@ -1,0 +1,161 @@
+body {
+    --brand-blue: #2196F3;
+    --brand-black: #212121;
+    --brand-grey: #757575;
+}
+
+.header-section {
+    background: #FFFFFF;
+}
+
+.upper-logo::after {
+    content: "Studio";
+    color: black;
+}
+
+.lower-logo::after {
+    content: "Studio";
+    color: white;
+}
+
+
+.upper-logo,
+.lower-logo {
+    font-family: 'Raleway';
+    font-syle: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--brand-blue);
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--brand-black);
+}
+
+.navigation-list a {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-grey);
+}
+
+.navigation-portofolio {
+    color: var(--brand-blue);
+}
+
+.image {
+    width: 370px;
+    height: 294px;
+}
+
+
+.navigation-contacts,
+.navigation-studio {
+    color: var(--brand-black);
+}
+
+
+.unstyled-list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--brand-blue);
+}
+
+.link:focus {
+    color: var(--brand-blue);
+}
+
+.header-contacts a {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-black);
+}
+
+
+
+.button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+
+}
+
+.button:hover {
+    border-radius: 4px;
+    background: var(--brand-blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.button:focus {
+    border-radius: 4px;
+    background: var(--brand-blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.portofolio-card {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+
+}
+
+.portofolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portofolio-description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--brand-grey);
+}
+
+.footer-section {
+    background: #2F303A;
+}
+
+.adress-contacts a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+}
+
+.adress-contacts-adress {
+    color: #FFFFFF;
+}
+
+.adress-contacts-mail,
+.adress-contacts-phone {
+    color: rgba(255, 255, 255, 0.6);
+}
