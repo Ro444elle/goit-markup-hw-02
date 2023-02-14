@@ -22,10 +22,10 @@ body {
 .upper-logo,
 .lower-logo {
     font-family: 'Raleway';
-    font-syle: normal;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--brand-blue);
 }
@@ -42,22 +42,29 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-grey);
 }
 
-.navigation-portofolio {
-    color: var(--brand-blue);
-}
+
 
 .image {
     width: 370px;
     height: 294px;
 }
 
+.nav-studio,
+.nav-portofolio,
+.header-item {
+    color: var(--brand-blue)
+}
 
+.header-second-item {
+    color: var(--brand-grey)
+}
+
+.navigation-portofolio,
 .navigation-contacts,
 .navigation-studio {
-    color: var(--brand-black);
+    color: var(--brand-black)
 }
 
 
@@ -81,7 +88,6 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-black);
 }
 
 
