@@ -2,6 +2,7 @@ body {
     --brand-blue: #2196F3;
     --brand-black: #212121;
     --brand-grey: #757575;
+    --brand-b-grey: #2F303A;
 }
 
 .header-section {
@@ -44,7 +45,50 @@ body {
     letter-spacing: 0.02em;
 }
 
+.front-section {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: var(--brand-b-grey);
+}
 
+.main-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+
+.request-button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: var(--brand-blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
 
 .image {
     width: 370px;
@@ -88,9 +132,8 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--brand-grey);
 }
-
-
 
 .button {
     background: #F5F4FA;
@@ -104,6 +147,13 @@ body {
     border: none;
 
 }
+
+.button-on-hover {
+    background: var(--brand-blue) box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
 
 .button:hover {
     border-radius: 4px;
@@ -119,6 +169,97 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color: #FFFFFF;
+}
+
+.description-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-black);
+}
+
+.description-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--brand-grey);
+}
+
+.description-section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-black);
+}
+
+.image-description-section {
+    width: 370px;
+    height: 294px;
+    background: url(.jpg);
+    mix-blend-mode: normal;
+}
+
+.team-section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-black);
+}
+
+.image-team-section {
+    width: 270px;
+    height: 260px;
+    left: 215px;
+    top: 1635px;
+    background: url(.jpg);
+    border-radius: 0px;
+}
+
+.team-card {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-black);
+}
+
+.team-card-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-grey)
 }
 
 .portofolio-card {
@@ -145,7 +286,7 @@ body {
 }
 
 .footer-section {
-    background: #2F303A;
+    background: var(--brand-b-grey);
 }
 
 .adress-contacts a {
