@@ -177,7 +177,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-black);
@@ -188,8 +188,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 1.7 letter-spacing: 0.03em;
     color: var(--brand-grey);
 }
 
@@ -198,7 +197,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-black);
